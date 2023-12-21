@@ -1,0 +1,17 @@
+{
+  "name": "jest_testing",
+  "version": "1.0.0",
+  "description": "for unit testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Bayoudh",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "setupFiles": ["<rootDir>/jest.setup.js"]
+  }
+}
